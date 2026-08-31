@@ -10,8 +10,10 @@ Turn technical material into one independent architecture-diagram image. Preserv
 ## Choose the Output Path
 
 - Default: directly generate the architecture-diagram image with an available image-generation tool.
+- For the best result, run this skill in Codex with image generation enabled and prefer GPT Image 2 (`gpt-image-2`) when that model is available.
+- Do not require one hard-coded tool name. Use the host agent's available image-generation capability while preserving this skill's topology and prompt rules.
 - If the user asks only for a prompt, return the diagram strategy and a complete generation prompt without generating.
-- If image generation is unavailable, return the prompt and state the limitation briefly.
+- If image generation is unavailable, return the complete handoff prompt and state the limitation briefly. Do not substitute an SVG, Mermaid, Graphviz, or code-rendering workflow.
 - Editable Mermaid, Graphviz, SVG, and `.pptx` outputs are outside this skill's scope.
 
 ## Resolve the Visual Style

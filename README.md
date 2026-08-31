@@ -42,6 +42,12 @@ Every preview uses the same **Agent System Architecture — From Intent to Trust
 - Omit the style to receive three recommendations.
 - Say “choose automatically” or “直接生成” to let the skill select and render without pausing.
 
+## Recommended Environment
+
+For the best results, use this skill in **Codex with image generation enabled** and prefer **[GPT Image 2 (`gpt-image-2`)](https://developers.openai.com/api/docs/models/gpt-image-2)** when it is available. GPT Image 2 is designed for high-quality image generation and editing, making it the recommended rendering path for polished architecture-diagram images.
+
+The skill does not bundle an image model. Other agents can still use its topology selection, semantic analysis, style system, and prompt compiler, but an agent without image-generation capability will return a complete handoff prompt instead of rendering the final image. This project intentionally does not include an SVG, Mermaid, Graphviz, or code-based renderer.
+
 ## Scope
 
 This skill generates standalone architecture-diagram images. It does not create PPT slides, editable Mermaid/Graphviz/SVG diagrams, or generic illustrations.
