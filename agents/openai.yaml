@@ -1,7 +1,7 @@
 interface:
-  display_name: "Architecture Diagram Designer"
+  display_name: "Beautiful Architecture Diagram"
   short_description: "将系统描述转成专业、语义准确的架构图图片"
-  default_prompt: "Use $architecture-diagram-designer to turn this system description into a polished architecture-diagram image."
+  default_prompt: "Use $beautiful-architecture-diagram to turn this system description into a polished architecture-diagram image."
 
 policy:
   allow_implicit_invocation: true

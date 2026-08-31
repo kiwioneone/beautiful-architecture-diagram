@@ -1,9 +1,9 @@
 ---
-name: architecture-diagram-designer
+name: beautiful-architecture-diagram
 description: Create semantically correct, visually polished architecture-diagram images from system descriptions, technical documents, component lists, or visual references. Use for system context, layered, component, data-flow, event-driven, hub-and-spoke, deployment, trust-zone, ecosystem, and feedback-loop diagrams; do not use for PPT design, editable Mermaid/SVG output, or generic illustration requests.
 ---
 
-# Architecture Diagram Designer
+# Beautiful Architecture Diagram
 
 Turn technical material into one independent architecture-diagram image. Preserve the system's actual boundaries and relationships; visual polish is secondary to semantic clarity.
 

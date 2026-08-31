@@ -1,4 +1,4 @@
-# 架构图设计器
+# Beautiful Architecture Diagram｜精美架构图
 
 [English](README.md) | **简体中文**
 
@@ -23,21 +23,21 @@
 ## 快速开始
 
 ```text
-使用 $architecture-diagram-designer，为一个包含编排器、LLM、工具、记忆、
+使用 $beautiful-architecture-diagram，为一个包含编排器、LLM、工具、记忆、
 策略护栏、评估和可观测性的 Agent 平台生成架构图。
 ```
 
 直接指定内置风格：
 
 ```text
-使用 $architecture-diagram-designer 和 Dark Blueprint 风格，展示下面这个
+使用 $beautiful-architecture-diagram 和 Dark Blueprint 风格，展示下面这个
 多地域事件驱动平台：……
 ```
 
 跳过风格讨论并立即生成：
 
 ```text
-使用 $architecture-diagram-designer，自动选择最合适的风格，并根据下面的
+使用 $beautiful-architecture-diagram，自动选择最合适的风格，并根据下面的
 技术文档直接生成架构图：……
 ```
 
@@ -79,7 +79,7 @@
 将本目录复制到兼容 Codex 的 Skill 目录：
 
 ```bash
-cp -R architecture-diagram-designer ~/.agents/skills/architecture-diagram-designer
+cp -R beautiful-architecture-diagram ~/.agents/skills/beautiful-architecture-diagram
 ```
 
 如果 Skill 列表没有立即刷新，请重启 Codex 或新建一个任务。

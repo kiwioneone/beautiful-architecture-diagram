@@ -1,11 +1,11 @@
-# Architecture Diagram Designer
+# Beautiful Architecture Diagram
 
 **English** | [简体中文](README.zh-CN.md)
 
 Turn system descriptions into semantically correct, visually polished architecture-diagram images with Codex.
 
 ```text
-$architecture-diagram-designer
+$beautiful-architecture-diagram
 Generate an architecture diagram for an agent platform with an orchestrator,
 LLM, tools, memory, policy guardrails, evaluation, and observability.
 ```
@@ -57,7 +57,7 @@ This skill generates standalone architecture-diagram images. It does not create 
 Copy this directory into your Codex-compatible skill directory:
 
 ```bash
-cp -R architecture-diagram-designer ~/.agents/skills/architecture-diagram-designer
+cp -R beautiful-architecture-diagram ~/.agents/skills/beautiful-architecture-diagram
 ```
 
 Restart Codex or begin a new task if the skill catalog does not refresh immediately.
